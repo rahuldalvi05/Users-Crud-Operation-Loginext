@@ -34,3 +34,7 @@ FontAwesomeIcon{
 .container {
   padding:30px 90px 10px 90px;
 }
+.cancelBtn{
+ color: rgb(107 114 128 / var(--tw-text-opacity)) !important;
+ border-color: rgb(107 114 128 / var(--tw-text-opacity)) !important;;
+}

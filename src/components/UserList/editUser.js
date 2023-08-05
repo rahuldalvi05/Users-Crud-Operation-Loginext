@@ -200,7 +200,7 @@ function EditUser({ user, open, onClose, isDelete }) {
 
                 </DialogContent>
                 <DialogActions>
-                    <Button type="submit"variant="outlined" color="primary" onClick={handleClose} >
+                    <Button type="submit" variant="outlined" className='cancelBtn' onClick={handleClose} >
                         {!isDelete ? "Cancel" : "No"}
                     </Button>
                     <Button type="submit" disabled={!validForm} variant="contained" color="primary" onClick={handleSubmit} >
